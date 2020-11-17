@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:layout_marginLeft="@dimen/main_left"
+    android:layout_marginRight="@dimen/main_right"
+    android:layout_marginTop="@dimen/main_top"
+    >
+
+
+   <EditText
+       android:id="@+id/edtNombre"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:hint="@string/hint_nombre"
+
+       />
+
+   <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="@string/text_fecha_nacimiento"
+       android:textSize="@dimen/text_tv"
+       android:layout_marginTop="@dimen/main_top"
+       />
+
+   <DatePicker
+       android:id="@+id/dpFechaNac"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:calendarViewShown="false"
+       android:datePickerMode="spinner"
+       android:layout_centerVertical="true"
+       android:layout_centerHorizontal="true"
+       />
+
+   <EditText
+       android:id="@+id/edtTelefono"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:hint="@string/hint_telefono"
+       android:layout_marginTop="@dimen/main_top"
+       />
+
+   <EditText
+       android:id="@+id/edtEmail"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:hint="@string/hint_email"
+       android:layout_marginTop="@dimen/main_top"
+       />
+
+   <EditText
+       android:id="@+id/edtDescripcion"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:hint="@string/hint_descripcion"
+       android:layout_marginTop="@dimen/main_top"
+       />
+
+   <Button
+       android:id="@+id/btnSiguiente"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="@string/button_text"
+       android:layout_marginTop="@dimen/main_top"
+       android:textSize="@dimen/text_button"/>
+
+
+
+
+</LinearLayout>

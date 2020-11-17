@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ConfirmActivity"
+    android:orientation="vertical"
+    android:layout_marginLeft="@dimen/main_left"
+    android:layout_marginRight="@dimen/main_right"
+    android:layout_marginTop="@dimen/main_top"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/confirm_title"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textSize="@dimen/text_title"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/main_top">
+
+        <TextView
+            android:id="@+id/tvMostrarNombre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="@dimen/text_tv"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/main_top">
+
+        <TextView
+            android:id="@+id/tvFecha"
+            android:text="@string/text_fecha_nacimiento"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="@dimen/text_tv"
+            android:layout_marginRight="@dimen/margin_right_tv"
+            />
+        <TextView
+            android:id="@+id/tvMostrarFecha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/text_tv"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/main_top">
+
+        <TextView
+            android:id="@+id/tvTelefono"
+            android:text="@string/text_telefono"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="@dimen/text_tv"
+            android:layout_marginRight="@dimen/margin_right_tv"/>
+        <TextView
+            android:id="@+id/tvMostrarTelefono"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/text_tv"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/main_top">
+
+        <TextView
+            android:id="@+id/tvEmail"
+            android:text="@string/text_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="@dimen/text_tv"
+            android:layout_marginRight="@dimen/margin_right_tv"/>
+        <TextView
+            android:id="@+id/tvMostrarEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/text_tv"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/main_top">
+
+        <TextView
+            android:id="@+id/tvDescripcion"
+            android:text="@string/text_descripcion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="@dimen/text_tv"
+            android:layout_marginRight="@dimen/margin_right_tv"/>
+        <TextView
+            android:id="@+id/tvMostrarDescripcion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/text_tv"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnEditar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_confirm_text"
+        android:textSize="@dimen/text_button"
+        android:layout_marginTop="@dimen/main_top"/>
+
+
+
+</LinearLayout>

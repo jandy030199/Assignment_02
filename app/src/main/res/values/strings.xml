@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Assignment 02</string>
+    <string name="hint_nombre">Nombre Completo</string>
+    <string name="hint_fecha_nacimiento">Fecha de Nacimiento</string>
+    <string name="hint_telefono">Teléfono</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_descripcion">Descripción Contacto</string>
+    <string name="button_text">Siguiente</string>
+    <string name="text_fecha_nacimiento">Fecha de Nacimiento:</string>
+    <string name="text_telefono">Teléfono:</string>
+    <string name="text_email">Email:</string>
+    <string name="text_descripcion">Descripción:</string>
+    <string name="btn_confirm_text">Editar Datos</string>
+    <string name="confirm_title">Confirmar Datos</string>
+    <string name="extra_nombre">nombre</string>
+    <string name="extra_day">day</string>
+    <string name="extra_month">month</string>
+    <string name="extra_year">year</string>
+    <string name="extra_telefono">telefono</string>
+    <string name="extra_email">email</string>
+    <string name="extra_descripcion">descripcion</string>
+
+</resources>

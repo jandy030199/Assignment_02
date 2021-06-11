@@ -36,7 +36,7 @@ public class ConfirmActivity extends AppCompatActivity {
 
         Bundle datos        =  getIntent().getExtras();
 
-        String nombre       =   datos.getString(getResources().getString(R.string.extra_nombre));
+        String nombreuser       =   datos.getString(getResources().getString(R.string.extra_nombre));
         int day             =   datos.getInt(getResources().getString(R.string.extra_day));
         int month           =   datos.getInt(getResources().getString(R.string.extra_month));
         int year            =   datos.getInt(getResources().getString(R.string.extra_year));
@@ -52,7 +52,7 @@ public class ConfirmActivity extends AppCompatActivity {
         SimpleDateFormat simpleDateFormat = new SimpleDateFormat("dd/MM/yyyy");
         String dateString = simpleDateFormat.format(myDate);
 
-        tvMostrarNombre.setText(nombre);
+        tvMostrarNombre.setText(nombreuser);
         tvMostrarFecha.setText(dateString);
         tvMostrarTelefono.setText(telefono);
         tvMostrarEmail.setText(email);
